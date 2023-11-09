@@ -8,3 +8,5 @@ git commit -m "Test"
 
 # Push changes to the origin's HEAD
 git push origin HEAD
+
+read -p "Enter to exit" 
