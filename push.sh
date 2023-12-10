@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#just pull before commiting since there could be mobile updates 
+git pull
 # Add all changes
 git add .
 
