@@ -15,7 +15,7 @@ header:
 </div>
 
 <a name="cvc"></a>
-### Cancer Variant Curator
+###
 
 We are currently seeking to hire a Cancer Variant Curator. If you are interested to learn more please contact us for details or follow the [Application Link](https://jobs.wustl.edu/psc/APPLHRMS/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_JBPST&REL_ACTION=Yes&SiteId=1&HRS_JO_PST_TYPE=E&HRS_JOB_OPENING_ID=45240&HRS_JO_PST_SEQ=1)
 
@@ -35,18 +35,6 @@ CIViC has gained international recognition, with routine conference calls with c
 
 Supervision:
 The initial phase of training will involve one on one instruction from postdoctoral fellows or faculty with the expectation of self-directed work. Weekly meetings with the CIViC team and Griffith Lab will be expected. Additional formal meetings will be conducted as needed.
-
-Read more about CIViC:
-
-- [Initial publication in Nature Genetics](https://www.nature.com/articles/ng.3774)
-- [ClinGen Collaboration](https://www.ncbi.nlm.nih.gov/pubmed/30311370)
-- [CIViC Curation Standard Operating Procedures](https://www.biorxiv.org/content/10.1101/700179v1?rss=1)
-
-Related publications:
-
-- [CIViCpy](https://www.biorxiv.org/content/10.1101/783134v1) - CIViC analysis toolkit (in review)
-- [CIViCmine](https://www.biorxiv.org/content/10.1101/500686v1) - Text mining clinical relevant biomarkers (in review)
-- [GA4GH Variant Interpretation for Cancer Consortium](https://www.biorxiv.org/content/10.1101/366856v1) - (in review)
 
 <a name="bioinfostaff"></a>
 ### Bioinformatics staff

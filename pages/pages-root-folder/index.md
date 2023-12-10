@@ -27,27 +27,21 @@ header:
     image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
 ---
 
-<div class="row">
-  <div class="small-6 columns">
-    <img src="/assets/img/lab_photo_Dec2017_cropped_v2.jpg">
-    
-  </div>
-  <div class="small-6 columns">
-    <img src="/assets/img/lab_photo_Aug2022_cropped.jpeg">
-  </div>
-</div>
 
 <div class="row">
   
 </div>
 
 ## Research Overview
-The Griffith lab is a collaborative research group driven by the independent and complementary interests of twin scientists Malachi Griffith and Obi Griffith. The focus of the lab is on developing methods of applied bioinformatics for personalized medicine and improved cancer care.
 
-The Griffith Lab is an interdisciplinary [team](/team/) of biologists, bioinformaticians, computer scientists, and software engineers. Each member of the lab is trained to use computational biology approaches to address research questions relating to cancer biology and precision cancer medicine. We train students and post-docs with a biology background that would like to develop bioinformatics skills. We are equally interested in trainees with a computer science background that would like to apply these skills to studying cancer and improving patient outcomes. If you are interested in becoming part of the team please review our [join](/join/) and open [positions](/join/positions/) pages.
+Welcome to the website of Bicomputing Group here at ASU, where cutting-edge research converges with computational expertise to unravel the mysteries of molecular biology. Led by Dr. H. Lee, our team is dedicated to advancing the understanding of biological phenomena through innovative computational methodologies.  
+<br>
+The research conducted by this laboratory spans a wide range of topics in genomics, molecular biology, and computational biology, showcasing a multidisciplinary approach to understanding fundamental biological processes. The team has made significant contributions to the field of immunology, particularly in the realm of T-cell receptor (TCR) and epitope interactions. Pioneering work includes the development of advanced computational models such as ATM-TCR, a multi-head self-attention model for predicting TCR-epitope binding affinities, and PiTE, a TCR-epitope binding affinity prediction pipeline utilizing a Transformer-based Sequence Encoder. These computational tools provide valuable insights into the dynamics of immune responses and have potential applications in vaccine development and personalized medicine.
 
-Our [research projects](/research/) cover a wide spectrum of cancer informatics and clinical statistics with an emphasis on translation and application. Specifically, we use computational methods for the analysis of large cancer datasets at the molecular level (DNA, RNA and protein) to identify markers for diagnosis, prognosis and drug response prediction in cancer.
+Moreover, the research team delves into the intricacies of DNA replication and transcription processes, shedding light on the factors influencing mutation rates and transcript errors in bacterial pathogens like Salmonella enterica subsp. enterica and Escherichia coli. Their work not only uncovers the complexities of mutagenesis but also challenges existing paradigms, as seen in studies on DNA replication-transcription conflicts and the symmetrical wave pattern of base-pair substitution rates across the E. coli chromosome. Beyond the laboratory bench, the team engages with broader societal issues, addressing privacy and ethical considerations in wastewater monitoring. Their commitment to understanding and advancing both the theoretical and practical aspects of genomics and molecular biology positions this research group at the forefront of innovative scientific inquiry.
 
-In addition to many ongoing large scale cancer genome/transcriptome data analysis projects, clinical trial data analyses, and Genomics Tumor Board case studies, the Griffith Lab actively develops methods, algorithms and tools to help others perform these analyses. We have made substantial contributions to [open source and open access software](/software/) for the scientific community including creation of platforms for [alternative expression analysis](http://alexaplatform.org), regulatory region annotation, [mining drug-gene interactions](http://dgidb.org), [curation of functional mutations](http://docm.info), [clinical interpretation of variants in cancer](http://civicdb.org), [design of personalized cancer vaccines](http://pvactools.org), [integration of whole genome and RNA-seq data in a regulatory and splicing context](http://regtools.org), and [genomic data visualization](https://bioconductor.org/packages/release/bioc/html/GenVisR.html).
 
-We have [published over 100 papers](/publications/) with major areas of focus in precision medicine, cancer, genomics, immunogenomics, biomarker discovery, sequence analysis, gene regulation and alternative RNA splicing. We are also actively involved in training the next generation of computational biologists through [formal courses, online tutorials and workshops](/teaching/).
+
+
+
+

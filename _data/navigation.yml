@@ -6,10 +6,6 @@
   url: "/research/"
   side: left
 
-- title: Software
-  url: "/software/"
-  side: left
-
 - title: Publications
   url: "/publications/"
   side: left
@@ -25,13 +21,6 @@
     - title: "Positions"
       url: "/join/positions/"
 
-- title: Teaching
-  url: "/teaching/"
-  side: left
-
-- title: Funding
-  url: "/funding/"
-  side: left
 
 - title: News
   url: "/news/"

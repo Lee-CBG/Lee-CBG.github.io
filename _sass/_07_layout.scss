@@ -265,28 +265,89 @@ body.video cite { color: #fff; }
 /* Footer
 ------------------------------------------------------------------- */
 
-#footer-content p,
-#footer-content li {
-    font-size: rem-calc(13);
-    font-weight: 300;
+/* General Styles */
+.kilimanjaro_area {
+    position: relative;
+    z-index: 1;
 }
 
-#footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background: $footer-bg;
-    color: $footer-color;
-    }
+/* Footer Styles */
+#footer-content {
+    background-color: #15151e; /* Update with your desired color */
+    color: #fff;
+    padding: 50px 0; /* Adjust padding as needed */
+}
 
-    #footer a {
-        color: $footer-link-color;
-    }
-    #footer h4,
-    #footer h5 {
-        letter-spacing: 1px;
-        color: #fff;
-        text-transform: uppercase;
-    }
+#footer-content h5,
+#footer-content p,
+#footer-content a {
+    color: #fff;
+}
+
+#subfooter-left ul li a {
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #888;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 3px;
+    padding: 7px 12px;
+}
+
+#subfooter-right {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+/* Social Links */
+.social_links_area {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.social_links_area a:hover {
+    color: #27ae60;
+}
+
+.inline-style .social_links_area a:hover {
+    background-color: transparent;
+    color: #27ae60;
+    border: 0px solid transparent;
+}
+
+/* Additional Styles for Specific Sections */
+.kilimanjaro_blog_area {
+    border-bottom: 1px solid #333;
+    margin-bottom: 15px;
+    padding: 0 0 15px 90px;
+    position: relative;
+    z-index: 1;
+}
+
+.kilimanjaro_blog_area a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.kilimanjaro_blog_area .kilimanjaro_date {
+    color: #27ae60;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+/* Footer Area */
+.footer_area {
+    position: relative;
+    z-index: 1;
+}
+
+.footer_bottom p > i,
+.footer_bottom p > a:hover {
+    color: #27ae60;
+}
 
 
 

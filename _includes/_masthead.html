@@ -1,4 +1,4 @@
-{% if page.header == NULL and page.header.image_fullwidth == NULL and page.header.pattern == NULL and page.header.background-color == NULL and page.header.title == NULL %}
+{% if page.header == nil and page.header.image_fullwidth == nil and page.header.pattern == nil and page.header.background-color == nil and page.header.title == nil %}
 
 <div id="masthead-no-image-header">
 	<div class="row">
@@ -8,7 +8,8 @@
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
-</div><!-- /#masthead -->
+</div><!-- /#masthead-no-image-header -->
+
 
 {% if page.breadcrumb == true %}
 {% include _breadcrumb.html %}
