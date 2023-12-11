@@ -12,7 +12,7 @@ header:
 <div data-magellan-expedition="fixed">
   <ul class="sub-nav">
     <li data-magellan-arrival="Overview"><a href="#Overview">Overview</a></li>
-    <li data-magellan-arrival="Breast_cancer_genomics"><a href="#Breast_cancer_genomics">Breast cancer</a></li>
+    <li data-magellan-arrival="Active_Learning_Framework"><a href="#Active_Learning_Framework">Active Learning Framework for Cost-Effective TCR-Epitope Binding Affinity Prediction</a></li>
     <li data-magellan-arrival="Liver_cancer_genomics"><a href="#Liver_cancer_genomics">Liver cancer</a></li>
     <li data-magellan-arrival="Lung_cancer_genomics"><a href="#Lung_cancer_genomics">Lung cancer</a></li>
     <li data-magellan-arrival="Lymphoma_genomics"><a href="#Lymphoma_genomics">Lymphoma</a></li>
@@ -28,32 +28,26 @@ header:
 <h2 data-magellan-destination="Overview">Overview</h2>
 <a name="Overview"></a>
 
-The Griffith lab is a combined research group driven by the interests of twin scientists [Malachi Griffith](http://malachigriffith.org/) and [Obi Griffith](http://obigriffith.org/). The focus of the lab is on developing methods of applied bioinformatics for personalized medicine and improved cancer care.
+The research conducted by this laboratory spans a wide range of topics in genomics, molecular biology, and computational biology, showcasing a multidisciplinary approach to understanding fundamental biological processes. The team has made significant contributions to the field of immunology, particularly in the realm of T-cell receptor (TCR) and epitope interactions. Pioneering work includes the development of advanced computational models such as ATM-TCR, a multi-head self-attention model for predicting TCR-epitope binding affinities, and PiTE, a TCR-epitope binding affinity prediction pipeline utilizing a Transformer-based Sequence Encoder. These computational tools provide valuable insights into the dynamics of immune responses and have potential applications in vaccine development and personalized medicine.
 
-Our research is committed to developing open-access and open-source resources for cancer genome analysis. Research projects cover a wide spectrum of cancer informatics and clinical statistics with an emphasis on translation and application. Specifically, we use computational methods for the analysis of large cancer datasets at the molecular level (DNA, RNA, and protein) to identify markers for diagnosis, prognosis, and drug response prediction in cancer. We have contributed to the early development of methods for the analysis of transcriptional regulation (ORegAnno) and RNA-seq analysis and visualization (ALEXA-seq Platform).
+Moreover, the research team delves into the intricacies of DNA replication and transcription processes, shedding light on the factors influencing mutation rates and transcript errors in bacterial pathogens like Salmonella enterica subsp. enterica and Escherichia coli. Their work not only uncovers the complexities of mutagenesis but also challenges existing paradigms, as seen in studies on DNA replication-transcription conflicts and the symmetrical wave pattern of base-pair substitution rates across the E. coli chromosome. Beyond the laboratory bench, the team engages with broader societal issues, addressing privacy and ethical considerations in wastewater monitoring. Their commitment to understanding and advancing both the theoretical and practical aspects of genomics and molecular biology positions this research group at the forefront of innovative scientific inquiry.
 
-The group is engaged in a large number of tumor sequencing projects for breast, lymphoma, glioblastoma, lung, and other cancers, investigating primary, relapse, and drug-resistant tumors. To this end, we have worked with others at the [McDonnell Genome Institute](http://genome.wustl.edu/) to develop end-to-end pipelines for clinical cancer sequencing that automate state-of-the-art methods for sequence alignment, somatic variation detection, RNA sequence analysis, and the integration of these data types into user-friendly reports of the most clinically relevant genome and transcriptome changes in a tumor or cohort of tumors ([Genome Modeling System](https://github.com/genome/gms/wiki)). To aid in this effort our group has developed software, databases, knowledgebases, and web tools for interrogation of the druggable genome ([DGIdb](http://dgidb.org/)), identification of cancer driver mutations ([DoCM](http://docm.info/)), interpretation of clinically actionable variants in cancer ([CIViC](http://civicdb.org)), and genomic visualization ([GenVisR](https://bioconductor.org/packages/release/bioc/html/GenVisR.html)). The group is also actively involved in the identification and scoring of tumor neoantigens and the development of related software for the design of human cancer vaccines ([pVACtools](http://pvactools.org)). We are also working with organizations such as the Global Alliance for Genomics Health (GA4GH) to help define data models and standards for clinical translation of genomics data, in particular through our leadership of the driver project: [Variant Interpretation for Cancer Consortium](http://cancervariants.org).
-
-In addition to our basic and clinical research interests, we are also passionate about the scholarship of teaching and learning. We have made substantial contributions to the training and education of tomorrow's bioinformaticians through our involvement in [CBW](https://bioinformatics.ca/), [CSHL](http://meetings.cshl.edu/courses.aspx?course=C-SEQTEC&year=18) workshops and the [BioStars](https://www.biostars.org/) forum. We have developed online courses for [RNA sequence analysis](http://rnabio.org), [Genomic Visualization in R](http://genviz.org), and [precision/personalized medicine bioinformatics](http://pmbio.org).
-
-<h2 data-magellan-destination="Breast_cancer_genomics">Breast cancer genomics</h2>
-<a name="Breast_cancer_genomics"></a>
+<h2 data-magellan-destination="Active_Learning_Framework">Active Learning Framework for Cost-Effective TCR-Epitope Binding Affinity Prediction</h2>
+<a name="Active_Learning_Framework"></a>
 
 {% include project
-  title="Genomic analysis of the Stat1-/- mouse model of ER+ breast cancer"
+  title="Active Learning Framework for Cost-Effective TCR-Epitope Binding Affinity Prediction"
 
-  description="ER+ luminal tumors are the most frequent subtype of breast cancer. Stat1−/− mice develop mammary tumors that closely resemble this cancer subtype. To identify transforming events that contribute to tumorigenesis, we performed whole genome sequencing of Stat1−/− primary mammary tumors and matched normal tissues. This investigation identified somatic truncating mutations affecting the prolactin receptor (Prlr) in all tumor samples. Targeted sequencing confirmed the presence of these mutations in precancerous lesions, indicating this is an early event in tumorigenesis. Functional evaluation showed that co-expression of truncated and wild-type Prlr led to aberrant Stat3 and Stat5 activation downstream of the receptor, cellular transformation in vitro and tumor formation in vivo."
+  description="A unified data optimization framework (dubbed ActiveTCR) that integrates active learning and TCR-epitope binding affinity prediction models. In two distinct use cases, ActiveTCR demonstrated superior performance over passive learning, notably cutting annotation costs approximately half and minimizing redundancy by over 40% - all without compromising on model performance. ActiveTCR stands as the first systematic exploration into the realm of data optimization for TCR-epitope binding affinity prediction."
 
-  team="Obi Griffith, Malachi Griffith, Kilannin Krysiak, Zachary Skidmore, Jasreet Hundal, Lee Trani"
+  team="Pengfei Zhang, Seojin Bang, Heewook Lee"
 
-  image="/assets/img/research/Stat1_slider_image.png"
+  image="/assets/img/research/activetcr.png"
 
-  citation="Griffith, Chan et al. 2016. Cell Reports. 17(1):249-60."
-
-  pmid="27681435"
+  citation="https://github.com/Lee-CBG/ActiveTCR"
 %}
 
-<h2 data-magellan-destination="Liver_cancer_genomics">Liver cancer genomics</h2>
+<!-- <h2 data-magellan-destination="Liver_cancer_genomics">Liver cancer genomics</h2>
 <a name="Liver_cancer_genomics"></a>
 
 
@@ -275,5 +269,5 @@ Neoadjuvant and Adjuvant Pembrolizumab in Resectable Locally Advanced, Human Pap
   citation="Griffith, Miller et al. 2015. Cell Systems. 1(3):210-223."
 
   pmid="26645048"
-%}
+%} -->
 
