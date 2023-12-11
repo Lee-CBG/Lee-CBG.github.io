@@ -13,15 +13,9 @@ header:
   <ul class="sub-nav">
     <li data-magellan-arrival="Overview"><a href="#Overview">Overview</a></li>
     <li data-magellan-arrival="Active_Learning_Framework"><a href="#Active_Learning_Framework">Active Learning Framework for Cost-Effective TCR-Epitope Binding Affinity Prediction</a></li>
-    <li data-magellan-arrival="Liver_cancer_genomics"><a href="#Liver_cancer_genomics">Liver cancer</a></li>
-    <li data-magellan-arrival="Lung_cancer_genomics"><a href="#Lung_cancer_genomics">Lung cancer</a></li>
-    <li data-magellan-arrival="Lymphoma_genomics"><a href="#Lymphoma_genomics">Lymphoma</a></li>
-    <li data-magellan-arrival="Head_and_neck_cancer_genomics"><a href="#Head_and_neck_cancer_genomics">Head and neck cancer</a></li>
-    <li data-magellan-arrival="Immunogenomics"><a href="#Immunogenomics">Immunogenomics</a></li>
-    <li data-magellan-arrival="Personalized_neoantigen_vaccine_clinical_trials"><a href="#Personalized_neoantigen_vaccine_clinical_trials">Personalized neoantigen vaccine clinical trials</a></li>
-    <li data-magellan-arrival="Targeted_therapy_clinical_trials"><a href="#Targeted_therapy_clinical_trials">Targeted therapy clinical trials</a></li>
-    <li data-magellan-arrival="Variant_interpretation"><a href="#Variant_interpretation">Variant interpretation</a></li>
-    <li data-magellan-arrival="Precision_medicine"><a href="#Precision_medicine">Precision medicine</a></li>
+    <li data-magellan-arrival="Context_Aware_Amino"><a href="#Context_Aware_Amino">Context-Aware Amino Acid Embedding Advances Analysis of TCR-Epitope Interactions</a></li>
+    <li data-magellan-arrival="pite"><a href="#pite">PiTE</a></li>
+    <li data-magellan-arrival="ATM_TCR"><a href="#ATM_TCR">ATM-TCR: TCR-Epitope Binding Affinity Prediction using a Multi-Head Self-Attention Model</a></li>
   </ul>
 </div>
 
@@ -32,7 +26,7 @@ The research conducted by this laboratory spans a wide range of topics in genomi
 
 Moreover, the research team delves into the intricacies of DNA replication and transcription processes, shedding light on the factors influencing mutation rates and transcript errors in bacterial pathogens like Salmonella enterica subsp. enterica and Escherichia coli. Their work not only uncovers the complexities of mutagenesis but also challenges existing paradigms, as seen in studies on DNA replication-transcription conflicts and the symmetrical wave pattern of base-pair substitution rates across the E. coli chromosome. Beyond the laboratory bench, the team engages with broader societal issues, addressing privacy and ethical considerations in wastewater monitoring. Their commitment to understanding and advancing both the theoretical and practical aspects of genomics and molecular biology positions this research group at the forefront of innovative scientific inquiry.
 
-<h2 data-magellan-destination="Active_Learning_Framework">Active Learning Framework for Cost-Effective TCR-Epitope Binding Affinity Prediction</h2>
+<h2 data-magellan-destination="Active_Learning_Framework"></h2>
 <a name="Active_Learning_Framework"></a>
 
 {% include project
@@ -47,6 +41,50 @@ Moreover, the research team delves into the intricacies of DNA replication and t
   citation="https://github.com/Lee-CBG/ActiveTCR"
 %}
 
+<h2 data-magellan-destination="Context_Aware_Amino"></h2>
+<a name="Context_Aware_Amino"></a>
+
+{% include project
+  title="Context-Aware Amino Acid Embedding Advances Analysis of TCR-Epitope Interactions"
+
+  description="Introducing catELMo, a groundbreaking and efficient amino acid embedding model, specifically tailored for T cell receptors. This advanced model facilitates an impressive boost of over 20% in absolute AUC when predicting binding affinity for unseen or novel epitopes, outperforming the conventional BLOSUM62. Moreover, catELMo exhibits an extraordinary capacity to maintain comparable performance to BLOSUM62, while reducing about 93% training data, making it a game-changer in the field of TCR analysis."
+
+  team="Pengfei Zhang, Seojin Bang, Michael Cai, Heewook Lee"
+
+  image="/assets/img/research/catelmo.png"
+
+  citation="https://elifesciences.org/reviewed-preprints/88837v1"
+%}
+
+<h2 data-magellan-destination="pite"></h2>
+<a name="pite"></a>
+
+{% include project
+  title="PiTE: TCR-epitope Binding Affinity Prediction Pipeline using Transformer-based Sequence Encoder"
+
+  description="How to better summarize multiple amino-acid-level embeddings into a single sequence-level embedding compared to average pooling? We build sequence encoders utilizing various structures including Transformer, BiLSTM, and ByteNet, and propose PiTE, a state-of-the-art two-step pipeline designed for TCR-epitope binding affinity prediction.."
+
+  team="Pengfei Zhang, Seojin Bang, Heewook Lee"
+
+  image="/assets/img/research/pite.png"
+
+  citation="https://www.worldscientific.com/doi/pdf/10.1142/9789811270611_0032"
+%}
+
+<h2 data-magellan-destination="ATM_TCR"></h2>
+<a name="ATM_TCR"></a>
+
+{% include project
+  title="ATM-TCR: TCR-Epitope Binding Affinity Prediction using a Multi-Head Self-Attention Model"
+
+  description="ATM-TCR leverages multi-head self-attention mechanisms to capture biological contextual information and improves generalization ff TCR-epitope binding affinity prediction models. A novel application of the attention map to improve out-of-sample performance by demonstrating on recent SARS-CoV-2 data."
+
+  team="Michael Cai, Seojin Bang, Pengfei Zhang, Heewook Lee"
+
+  image="/assets/img/research/atm-tcr.png"
+
+  citation="https://www.frontiersin.org/articles/10.3389/fimmu.2022.893247/full"
+%}
 <!-- <h2 data-magellan-destination="Liver_cancer_genomics">Liver cancer genomics</h2>
 <a name="Liver_cancer_genomics"></a>
 
