@@ -37,10 +37,19 @@ header:
 
 {% include publication authors="Jiao Pan, Weiyi Li, Jiahao Ni, Kun Wu, Iain Konigsberg, Caitlyn E Rivera, Clayton Tincher, Colin Gregory, Xia Zhou, Thomas G Doak, Heewook Lee, Yan Wang, Xiang Gao, Michael Lynch, Hongan Long" title="Rates of Mutations and Transcript Errors in the Foodborne Pathogen Salmonella enterica subsp. enterica" journal="Molecular biology and evolution 2022 April" doi="10.1093/molbev/msac081" %}
 
+{% include publication authors="Pengfei Zhang, Seojin Bang, Heewook Lee" title="PiTE: TCR-epitope binding affinity prediction pipeline using Transformer-based Sequence Encoder" journal="American Society for Microbiology 2021" doi="https://doi.org/10.1142/9789811270611_0032" %}
+
 
 <h2 data-magellan-destination="2021">2021</h2>
 <a name="2021"></a>
 
+{% include publication authors="Patricia L Foster, Brittany A Niccum, Heewook Lee" title="DNA Replication-Transcription Conflicts Do Not Significantly Contribute to Spontaneous Mutations Due to Replication Errors in Escherichia coli" journal="American Society for Microbiology 2021" doi="https://doi.org/10.1128/mbio.02503-21" %}
+
+{% include publication authors="Danielle Jacobs, Troy McDaniel, Arvind Varsani, Rolf U Halden, Stephanie Forrest, Heewook Lee" title="Wastewater monitoring raises privacy and ethical considerations" journal="IEEE Transactions on Technology and Society 2021" doi="https://doi.org/10.1109/TTS.2021.3073886" %}
+
+{% include publication authors="Seojin Bang, Pengtao Xie, Heewook Lee, Wei Wu, Eric Xing" title="Explaining a black-box using deep variational information bottleneck approach" journal="2021" doi="https://doi.org/10.1609/aaai.v35i13.17358" %}
+<!-- 
+2021 done start 2020 onwards -->
 
 <h2 data-magellan-destination="2020">2020</h2>
 <a name="2020"></a>
