@@ -33,7 +33,7 @@ header:
 <h2 data-magellan-destination="2022">2022</h2>
 <a name="2022"></a>
 
-{% include publication authors="Michael Cai, Seojin Bang, Pengfei Zhang, Heewook Lee" title="ATM-TCR: TCR-epitope binding affinity prediction using a multi-head self-attention model" journal="Frontiers in Immunology July 2022" doi="10.3389/fimmu.2022.893247" %}
+{% include publication authors="Michael Cai, Seojin Bang, Pengfei Zhang, Heewook Lee" title="ATM-TCR: TCR-epitope binding affinity prediction using a multi-head self-attention model" journal="Frontiers in Immunology July 2022" doi="https://doi.org/10.3389/fimmu.2022.893247" %}
 
 {% include publication authors="Jiao Pan, Weiyi Li, Jiahao Ni, Kun Wu, Iain Konigsberg, Caitlyn E Rivera, Clayton Tincher, Colin Gregory, Xia Zhou, Thomas G Doak, Heewook Lee, Yan Wang, Xiang Gao, Michael Lynch, Hongan Long" title="Rates of Mutations and Transcript Errors in the Foodborne Pathogen Salmonella enterica subsp. enterica" journal="Molecular biology and evolution 2022 April" doi="10.1093/molbev/msac081" %}
 
