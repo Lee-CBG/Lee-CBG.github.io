@@ -34,7 +34,7 @@ header:
 
 ## Research Overview
 
-Welcome to the website of Bicomputing Group here at ASU, where cutting-edge research converges with computational expertise to unravel the mysteries of molecular biology. Led by Dr. H. Lee, our team is dedicated to advancing the understanding of biological phenomena through innovative computational methodologies.  
+Welcome to the website of Biocomputing Group here at ASU, where cutting-edge research converges with computational expertise to unravel the mysteries of molecular biology. Led by Dr. H. Lee, our team is dedicated to advancing the understanding of biological phenomena through innovative computational methodologies.  
 <br>
 The research conducted by this laboratory spans a wide range of topics in genomics, molecular biology, and computational biology, showcasing a multidisciplinary approach to understanding fundamental biological processes. The team has made significant contributions to the field of immunology, particularly in the realm of T-cell receptor (TCR) and epitope interactions. Pioneering work includes the development of advanced computational models such as ATM-TCR, a multi-head self-attention model for predicting TCR-epitope binding affinities, and PiTE, a TCR-epitope binding affinity prediction pipeline utilizing a Transformer-based Sequence Encoder. These computational tools provide valuable insights into the dynamics of immune responses and have potential applications in vaccine development and personalized medicine.
 
