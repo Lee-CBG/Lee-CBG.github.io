@@ -48,7 +48,7 @@ My work seeks to shed light on two key areas: first, developing computational st
 <!-- {% include team_member member_name="Katie" full_name="Katie Campbell, Phd" bio='Katie is currently a post doctoral fellow in the Ribas lab at UCLA but continues part time in the lab. Katie completed her PhD in the Molecular Cell Biology program at Washington University in St. Louis in 2018. She graduated from Penn State University in 2014 with honors in Biochemistry. Katie has been awarded positions in the Precision Medicine and Cancer Biology Pathways at Washington University, and is interested in utilizing genomics and informatics approaches to study cancer and tumor immunology in order to understand mechanisms of drug and treatment sensitivity. Her thesis research is focused on characterizing models of and defining therapeutic opportunities in head and neck cancer. Katie has also contributed to other projects in the lab, including <a href="http://civicdb.org">CIViC</a>, <a href="https://bioconductor.org/packages/release/bioc/html/GenVisR.html">GenVisR</a>, pVACtools, and <a href="http://dgidb.org">DGIdb</a>, as well as analyzing cancer case studies for the Washington University Genomics Tumor Board. Katie’s additional talents include saying the alphabet backwards, standing on her head, and regularly drinking large amounts of coffee.' image="/assets/img/team/katie_campbell.jpg" role="Staff Scientist" %} -->
 
 
-<h2 data-magellan-destination="Students_Interns">Students and Interns</h2>
+<h2 data-magellan-destination="Students_Interns">Students and Interns Test</h2>
 <a name="Students_Interns"></a>
 
 
