@@ -25,7 +25,7 @@ The site should now be running on localhost port 4000. Changes to files will sho
 5. Note: To modify data like body of a content its faster to go json file and modify it there and then click generate again.
 6. !Optional! See archived folder to see examples of asset locations url, and store it in that respective folder.
 7. Lastly, push the changes with a commit message! 
-
+8. Exception-> To update publications, just add all the bibtex in scripts/example.bib and then choose Publications option in main menu it'll automatically generate the markdown file. 
 
 
 ## License
