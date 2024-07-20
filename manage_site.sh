@@ -3,7 +3,6 @@
 # Ensure this script is run from the directory where it resides
 cd "$(dirname "$0")"
 
-# Function to display the menu and get a choice
 function show_menu() {
     echo "Select the component you want to modify:"
     echo "1. Teams"
@@ -16,7 +15,6 @@ function show_menu() {
     return $choice
 }
 
-# Function to execute the Python script based on the user's choice
 function execute_script() {
     script_path="scripts"
     case $1 in
@@ -48,7 +46,6 @@ function execute_script() {
     return 0
 }
 
-# Function to handle Git operations
 function git_operations() {
     read -p "Do you want to push these changes to the repository? (y/n): " answer
     if [[ $answer = "y" || $answer = "Y" ]]
@@ -63,7 +60,6 @@ function git_operations() {
     fi
 }
 
-# Main program loop
 while true
 do
     show_menu

@@ -1,10 +1,12 @@
 import json
 import argparse
 import os
-# Path to the JSON file where data is stored
+
+#TO-DO!
+#Implement the social media links in _data/socialmedia.yml 
+
 data_file = 'team_data.json'
 
-# Function to load data from the file
 def load_data():
     try:
         with open(data_file, 'r') as file:
@@ -12,12 +14,10 @@ def load_data():
     except (FileNotFoundError, json.JSONDecodeError):
         return []
 
-# Function to save data to the file
 def save_data(data):
     with open(data_file, 'w') as file:
         json.dump(data, file, indent=4)
 
-# Function to add a team member
 def add_member():
     member = {
         "name": input("Enter member's name: "),
@@ -31,7 +31,6 @@ def add_member():
     save_data(data)
     print("Member added successfully!")
 
-# Function to remove a team member
 def remove_member():
     name = input("Enter the name of the member to remove: ")
     data = load_data()
@@ -65,22 +64,28 @@ def generate_markdown():
 
     print("Markdown file generated successfully!", markdown_file_path)
 
-# Main function to handle the CLI
 def main():
-    parser = argparse.ArgumentParser(description="Manage Team Information")
-    parser.add_argument("--add", action='store_true', help="Add a new team member")
-    parser.add_argument("--remove", action='store_true', help="Remove a team member")
-    parser.add_argument("--generate", action='store_true', help="Generate markdown file")
+    while True:
+        print("Manage Team Information")
+        print("1. Add a new team member")
+        print("2. Remove a team member")
+        print("3. Generate markdown file")
+        print("4. Exit")
+        choice = input("Choose an option: ")
 
-    args = parser.parse_args()
-
-    if args.add:
-        print("Current working directory:", os.getcwd())
-        add_member()
-    elif args.remove:
-        remove_member()
-    elif args.generate:
-        generate_markdown()
+        if choice == '1':
+            add_member()
+            print("Don't forget to generate Markdown!")
+        elif choice == '2':
+            remove_member()
+            print("Don't forget to generate Markdown!")
+        elif choice == '3':
+            generate_markdown()
+        elif choice == '4':
+            print("Exiting...")
+            break
+        else:
+            print("Invalid choice, please try again.")
 
 if __name__ == "__main__":
     main()

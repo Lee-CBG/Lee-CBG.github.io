@@ -14,6 +14,19 @@ To install this site locally run the following commands:
 
 The site should now be running on localhost port 4000. Changes to files will show up interactively on localhost:4000
 
+## How to modify content 
+
+# Make sure you have python installed and all dependencies in scipts
+
+1. Being in root folder run, ./manage_site.sh 
+2. Then follow steps to add content. 
+3. To remove content, choose the unique name like persons name or Site Title with exact case match. 
+4. After that press 3 in the menu to generate the new markdown file 
+5. Note: To modify data like body of a content its faster to go json file and modify it there and then click generate again.
+6. Lastly, push the changes with a commit message! 
+
+
+
 ## License
 
 The code for this site is licensed under an MIT license, images may have specific attribution requirements and are licensed individually under assets/img/image_attribution
