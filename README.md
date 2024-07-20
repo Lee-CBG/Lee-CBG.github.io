@@ -14,9 +14,10 @@ To install this site locally run the following commands:
 
 The site should now be running on localhost port 4000. Changes to files will show up interactively on localhost:4000
 
-## How to modify content 
+# How to modify content 
 
-# Make sure you have python installed and all dependencies in scipts
+## Make sure you have python installed and all dependencies in scipts
+Dependencies to install using ->  pip install beautifulsoup4
 
 1. Being in root folder run, ./manage_site.sh 
 2. Then follow steps to add content. 
