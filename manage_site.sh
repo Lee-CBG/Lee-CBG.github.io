@@ -32,7 +32,10 @@ function execute_script() {
             ;;
         4)
             echo "Modifying Publications..."
-            python $script_path/publications.py
+            cd scripts
+            python bibtex2html.py example.bib template.html output.html
+            python publications.py
+            cd ../.
             ;;
         5)
             echo "Exiting..."

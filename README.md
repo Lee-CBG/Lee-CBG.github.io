@@ -23,7 +23,8 @@ The site should now be running on localhost port 4000. Changes to files will sho
 3. To remove content, choose the unique name like persons name or Site Title with exact case match. 
 4. After that press 3 in the menu to generate the new markdown file 
 5. Note: To modify data like body of a content its faster to go json file and modify it there and then click generate again.
-6. Lastly, push the changes with a commit message! 
+6. !Optional! See archived folder to see examples of asset locations url, and store it in that respective folder.
+7. Lastly, push the changes with a commit message! 
 
 
 
