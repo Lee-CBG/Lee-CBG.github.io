@@ -5,7 +5,7 @@ git pull
 git add .
 
 # Commit changes with a provided message
-git commit -m "README dependencies change"
+git commit -m "README change"
 
 # Push changes to the origin's HEAD
 git push origin HEAD

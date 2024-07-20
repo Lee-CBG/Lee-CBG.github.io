@@ -16,8 +16,9 @@ The site should now be running on localhost port 4000. Changes to files will sho
 
 # How to modify content 
 
-## Make sure you have python installed and all dependencies in scipts
-Dependencies to install using ->  pip install beautifulsoup4
+## UNIX users might require python3 command in manage_site script
+
+## Dependencies to install using ->  pip install beautifulsoup4
 
 1. Being in root folder run, ./manage_site.sh 
 2. Then follow steps to add content. 
