@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Ensure this script is run from the directory where it resides
+cd "$(dirname "$0")"
+
 # Function to display the menu and get a choice
 function show_menu() {
     echo "Select the component you want to modify:"
@@ -8,7 +11,7 @@ function show_menu() {
     echo "3. Research"
     echo "4. Publications"
     echo "5. Exit"
-    echo "Enter your choice [1-5]: "
+    echo -n "Enter your choice [1-5]: "
     read choice
     return $choice
 }
@@ -19,19 +22,19 @@ function execute_script() {
     case $1 in
         1)
             echo "Modifying Teams..."
-            python3 $script_path/teams.py
+            python $script_path/teams.py --add
             ;;
         2)
             echo "Modifying News..."
-            python3 $script_path/news.py
+            python $script_path/news.py
             ;;
         3)
             echo "Modifying Research..."
-            python3 $script_path/research.py
+            python $script_path/research.py
             ;;
         4)
             echo "Modifying Publications..."
-            python3 $script_path/publications.py
+            python $script_path/publications.py
             ;;
         5)
             echo "Exiting..."
@@ -50,8 +53,6 @@ function git_operations() {
     read -p "Do you want to push these changes to the repository? (y/n): " answer
     if [[ $answer = "y" || $answer = "Y" ]]
     then
-        echo "Running build command before pushing changes. Uno Momento!"
-        bundle exec jekyll build
         git add .
         read -p "Enter commit message: " commit_message
         git commit -m "$commit_message"
