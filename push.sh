@@ -5,7 +5,7 @@ git pull
 git add .
 
 # Commit changes with a provided message
-git commit -m "README change"
+git commit -m "fixing python to python3 for MAC"
 
 # Push changes to the origin's HEAD
 git push origin HEAD

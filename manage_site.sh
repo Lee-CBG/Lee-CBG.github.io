@@ -20,21 +20,21 @@ function execute_script() {
     case $1 in
         1)
             echo "Modifying Teams..."
-            python $script_path/teams.py --add
+            python3 $script_path/teams.py --add
             ;;
         2)
             echo "Modifying News..."
-            python $script_path/news.py
+            python3 $script_path/news.py
             ;;
         3)
             echo "Modifying Research..."
-            python $script_path/research.py
+            python3 $script_path/research.py
             ;;
         4)
             echo "Modifying Publications..."
             cd scripts
-            python bibtex2html.py example.bib template.html output.html
-            python publications.py
+            python3 bibtex2html.py example.bib template.html output.html
+            python3 publications.py
             cd ../.
             ;;
         5)

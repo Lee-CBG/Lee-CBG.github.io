@@ -5,7 +5,8 @@ import os
 #TO-DO!
 #Implement the social media links in _data/socialmedia.yml 
 
-data_file = 'team_data.json'
+base_dir = os.path.dirname(os.path.abspath(__file__))
+data_file = os.path.join(base_dir, 'team_data.json')
 
 def load_data():
     try:
